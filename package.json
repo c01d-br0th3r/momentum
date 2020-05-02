@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "homepage": "https://c01d-br0th3r.github.io/momentum/",
+  "script": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
